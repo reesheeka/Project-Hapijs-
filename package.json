@@ -1,0 +1,34 @@
+{
+  "name": "project-news",
+  "version": "1.0.0",
+  "description": "Mini project on News",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reesheeka/Project-News.git"
+  },
+  "author": "Rishika Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reesheeka/Project-News/issues"
+  },
+  "homepage": "https://github.com/reesheeka/Project-News#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
